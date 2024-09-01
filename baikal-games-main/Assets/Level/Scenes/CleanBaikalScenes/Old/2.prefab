@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8883346633409654203
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3351539385769711803}
+  - component: {fileID: 3417698939953401335}
+  - component: {fileID: 4028957002318868554}
+  - component: {fileID: 4999275637343439514}
+  m_Layer: 0
+  m_Name: 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3351539385769711803
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8883346633409654203}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 594.15466, y: 274.9096, z: 2.8935204}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3417698939953401335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8883346633409654203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac999406dca52be4c89a41d968a8a282, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnObjects:
+  - {fileID: 7918609973824721164, guid: 37237edde53a32c428afade3c18ef67f, type: 3}
+  - {fileID: 7446020039030982756, guid: bcbe128742284e04ab15a16cc1d08e82, type: 3}
+  - {fileID: 9132252329809555569, guid: 5f2af4113f15e904daabfd0c773b972f, type: 3}
+  spawnPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  numbers: 
+  trashCounter: {fileID: 0}
+  bounds: {fileID: 0}
+  objectsPerSpawn: 8
+--- !u!114 &4028957002318868554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8883346633409654203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d91f265c463326459037b8bf1c4c1bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeRemaining: 45
+  maxPoints: 160
+  timeText: {fileID: 0}
+  stars:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  gameWindow: {fileID: 0}
+  resultPanel: {fileID: 0}
+--- !u!114 &4999275637343439514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8883346633409654203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 302acca622a88f84a82691f2e57cb7ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreText: {fileID: 0}
+  gameWindow: {fileID: 0}
+  resultPanel: {fileID: 0}
+  stars:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  scorePerTrash: 20
+  maxScoreToWin: 160

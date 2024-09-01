@@ -1,0 +1,1 @@
+{"DoodleJumpSensivity":150.0}
